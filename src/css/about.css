@@ -1,0 +1,99 @@
+.about {
+    max-width: 100%;
+    height: max-content;
+    margin-top: 80px;
+    border: 1px solid black;
+    background-color: #2C3333;
+    color: white;
+}
+
+
+.teks-about {
+    padding: 5px;
+    max-width: 95%;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.teks-about span {
+    color: crimson;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.fast-respon, .pengiriman-cepat, .terbaik {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 80px;
+    max-width: 70%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.fast-respon span {
+    width: max-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.fast-respon p {
+    width: max-content;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+
+.pengiriman-cepat span {
+    width: max-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.pengiriman-cepat p {
+    width: max-content;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+
+.terbaik span {
+    width: max-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.terbaik p {
+    width: max-content;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+
+.pengiriman-cepat, .terbaik {
+    margin-top: 20px;
+}
+
+.lokasi {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.lokasi p {
+    font-size: 1rem;
+}
+
+.lokasi iframe {
+    border: 1px solid black;
+    border-radius: 10px;
+}
