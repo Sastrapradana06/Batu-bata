@@ -6,7 +6,8 @@ import Home from './pages/Home'
 import About from './pages/About';
 import Proses from './pages/Proses';
 
-  function App() {
+
+function App() {
   const [navbar, setNavbar] = React.useState('list')
   
   function hamburgerMenu() {

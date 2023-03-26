@@ -1,7 +1,15 @@
 import '../css/proses.css'
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 export default function Proses() {
+    useEffect(() => {
+        AOS.init()
+    })
+
+
     const [proses] = React.useState([
         {
             "id": "1",
@@ -36,7 +44,7 @@ export default function Proses() {
             </div>
             {proses.map((proces) => {
                 return (
-                    <div className="teknik" key={proces.id}>
+                    <div className="teknik" key={proces.id} data-aos="fade-up" data-aos-duration="500">
                         <div className={proces.css}></div>
                         <div className="teks-pembuatan">
                             <h3>{proces.title}</h3>

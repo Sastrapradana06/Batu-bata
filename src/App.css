@@ -15,13 +15,11 @@
   background-color: rgb(12, 37, 53);
   color: white;
   width: 100%;
-  /* height: 50px; */
   box-sizing: border-box;
   padding: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid black; */
   flex-wrap: wrap;
 }
 
